@@ -177,7 +177,7 @@ na.handler <- function(ds, strategy) {
 loginfo("Function initialization complete! ", logger="")
 
 # 1. Read data from dataset
-dsUrl = "https://raw.githubusercontent.com/UKGANG/IST-687/master/dataset/fall2019-survey-M04.json";
+
 rawData <- jsonlite::fromJSON(getURL(dsUrl));
 loginfo(sprintf("JSON data loaded, row=%d, column=%d. "
                 , dim(rawData)[1], dim(rawData)[2]));
