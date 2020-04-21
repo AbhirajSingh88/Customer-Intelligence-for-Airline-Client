@@ -1,5 +1,4 @@
-echo = F
-source("https://raw.githubusercontent.com/UKGANG/IST-687/master/mungling/dummy_builder.R")
+
 # trainList <- createDataPartition(y=goodDiamonds$cut,p=.67,list=FALSE)
 installLibrary("lsr")
 travelTypeFilter <- function(data, type) {
