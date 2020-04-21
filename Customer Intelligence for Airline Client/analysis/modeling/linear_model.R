@@ -1,5 +1,4 @@
-echo=F
-source("https://raw.githubusercontent.com/UKGANG/IST-687/master/mungling/dummy_builder.R")
+
 
 partnerFilter <- function(data, type) {
   return (filter(data, Flight.Ticket.Partner.Code %in% type));
