@@ -1,4 +1,4 @@
-source("https://raw.githubusercontent.com/UKGANG/IST-687/master/mungling/Data_Cleaner.R")
+
 installLibrary("fastDummies")
 installLibrary("lubridate")
 rawData$year <- year(strptime(rawData$Flight.Date, "%m/%d/%y"));
