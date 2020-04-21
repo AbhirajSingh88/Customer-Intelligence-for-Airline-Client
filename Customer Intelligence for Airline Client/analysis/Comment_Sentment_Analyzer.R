@@ -1,8 +1,6 @@
-source("https://raw.githubusercontent.com/UKGANG/IST-687/master/mungling/Data_Cleaner.R")
 
-# Prepare for sentenment dictionaries
-pos <- "https://raw.githubusercontent.com/UKGANG/IST-687/master/analysis/positive-words.txt"
-neg <- "https://raw.githubusercontent.com/UKGANG/IST-687/master/analysis/negative-words.txt"
+
+
 p <- scan(pos, character(0), sep = "\n")
 n <- scan(neg, character(0), sep = "\n")
 p <- p[-1:-34]
